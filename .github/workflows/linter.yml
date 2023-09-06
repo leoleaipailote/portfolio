@@ -1,0 +1,28 @@
+---
+name: Style-checking and linting 
+on: [push, pull_request]
+
+jobs:
+  tests:
+    name: Style-checking and linting
+    runs-on: ubuntu-latest
+    env:
+      BUNDLE_WITHOUT: production
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Style check and lint
+        uses: github/super-linter/slim@v5
+        env:
+          VALIDATE_ALL_CODEBASE: true
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          IGNORE_GITIGNORED_FILES: true
+          IGNORE_GENERATED_FILES: true
+          VALIDATE_HTML: true
+          VALIDATE_CSS: true
+          VALIDATE_JAVASCRIPT_ES: true

@@ -1,0 +1,104 @@
+@import url("node_modules/bootstrap/dist/css/bootstrap.min.css");
+
+.experience, .projects, .education, .about-me{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    text-align: center;
+    
+}
+
+.experience{
+    background-color: #800000;
+}
+
+.projects{
+    background-color: #8D070E;
+
+}
+
+.education{
+    background-color: #9B0D1C;
+}
+
+.about-me{
+    background-color: #A8142A;
+}
+
+.navigation{
+    position: fixed;
+    top: 0;
+    padding-bottom: 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2, h3{
+    font-family: 'Trebuchet MS', sans-serif;
+    color: maroon;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 17px;
+}
+
+.content{
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+img{
+    max-width: 100%;
+    max-height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+table th{
+    background-color: maroon !important;
+    color: white !important;
+    font-weight: 100 !important;
+}
+
+.custom{
+    width:150px;
+}
+
+.course-name{
+    width:200px;
+}
+
+#basic-edu-info{
+    padding-left: 0% !important;
+    padding-bottom: 2%;
+}
+
+#basic-edu-info ul{
+    list-style-type: square;
+}
+
+.contact-info p, h3{
+    font-style: italic; 
+}
+
+ul .project-description{
+    list-style-type: square;
+}
+
+ul h3{
+    font-size: 25px;
+}
+
+ul h4{
+    font-size: 17px;
+    font-style: italic;
+    color:black;
+}

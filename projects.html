@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" href = "node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="site.css">
+    <title>Leo Leaipailote</title>
+  </head>
+  <body>
+    <div class = "navigation container-fluid">
+      <div class = "row">
+        <div class = "about-me col-md-3">
+          <a href = "index.html">
+            About Me
+          </a>
+        </div>
+        <div class = "education col-md-3">
+          <a href = "education.html">
+            Education
+          </a>
+        </div>
+        <div class = "projects col-md-3">
+          <a href = "projects.html">
+            Projects
+          </a>
+        </div>
+        <div class = "experience col-md-3">
+          <a href = "experience.html">
+            Experience
+          </a>
+        </div>
+      </div>
+  </div>
+  <div class = "content ">
+    <h2>App Development</h2>
+    <br>
+    <ul>
+        <li class = "project-description">
+            <h3>GameSync</h3>
+            <h4>Languages: HTML, CSS, JavaScript, Python</h4>
+            <h4>Skills/Frameworks: Django, React Native, Front-end Development, Back-end Development</h4>
+            <p>Driven by a desire to simplify the process for soccer enthusiasts in Thailand, I am currently developing GameSync, a mobile application designed to connect players with teams and available soccer pitches. At its core, GameSync was created to ease the challenges soccer players face – whether it's finding a team that matches their skill level or a venue to play in. Using React Native, I focused on the front-end, aiming for an interface that was user-friendly and intuitive, while the backend operations, including API calls, were adeptly managed by Django.</p>
+            <p>GameSync's standout features were its unique team and venue profiles. The team profile allowed players to search for and join teams based not just on their vicinity but also on their skill compatibility, ensuring that every game played was balanced and enjoyable. On the other hand, the venue profile was devised to assist businesses in renting out their soccer pitches. It provided players with real-time information on available slots and helped venue owners get insights into pitch demand. </p>
+        </li>
+        <li class = "project-description">
+            <h3>HotSpot</h3>
+            <h4>Languages: HTML, CSS, Javascript</h4>
+            <h4>Skills/Frameworks: Node.js, Express, React, MongoDB, REST API, Jira, AGILE</h4>
+            <p>In response to the growing need for NGOs to connect seamlessly with volunteers, I developed "Hotspot", a social media platform tailored for this purpose. At the core of its technical foundation, I employed the MERN stack, putting MongoDB into action as the primary database to ensure efficient and scalable data management. A cornerstone of the application's functionality was the REST APIs I designed and implemented, which became instrumental in handling the influx of requests and responses. This robust system was pivotal, especially when supporting the dynamic interaction of posts, comments, and likes, ensuring that the platform not only served its altruistic purpose but also stood strong from a technological perspective.</p>
+            <p>During the development of "Hotspot", React was my go-to framework for front-end development, harnessing its power to create a responsive and intuitive user interface. One of the standout strengths of React, which I capitalized on extensively, was its ability to reuse components. This feature was instrumental in creating modular and efficient controllers within the front end. By reusing components, I was able to ensure consistent behavior across various sections of the app while significantly cutting down on redundant code. This not only streamlined the development process but also optimized performance, making the user experience smooth and reliable.</p>
+        </li>
+    </ul>
+    <br>
+    <h2>Games</h2>
+    <br>
+    <ul>
+        <li class = "project-description">
+            <h3>Wordle</h3>
+            <h4>Languages: Java</h4>
+            <h4>Skills: Inheritance, Object-Oriented Programming</h4>
+            <p>My unbroken streak of daily Wordle puzzles inspired me to recreate the game myself as a personal challenge. Using the principles of object-oriented programming, I meticulously structured classes and methods that represented the game’s core elements. This foundation not only made the code more modular and maintainable but also allowed for a seamless integration of Wordle’s distinguishing features.</p>
+            <p>A major highlight of my implementation was the feedback mechanism — a cornerstone of Wordle's allure. When players guess a letter that matches both the position and value in the hidden word, the interface illuminates that tile in a reassuring green. On the other hand, a correct letter in the wrong position delicately transitions to yellow, giving the player a nudge to refine their strategy. This intricate dance of colors, driven by my keen understanding of OOP, ensured that the gameplay was both intuitive and reminiscent of the original Wordle, encapsulating players in a realm of words, wit, and wonder.</p>
+        </li>
+        <li class = "project-description">
+            <h3>DragonBall Scrolling Game</h3>
+            <h4>Languages: Java</h4>
+            <h4>Skills: UX/UI Design, Object-Oriented Programming, Polymorphism</h4>
+            <p>Driven by my love for the Dragon Ball series and a desire to channel my coding prowess into a creative endeavor, I created a distinctive Dragon Ball-inspired scrolling game. By implementing interfaces and applying the concepts of polymorphism, I was able to make Goku a playable character able to fire his signature Ki blasts in his quest to defeat the various Saibamen and eventually Frieza himself. Through the power of object-oriented features, I masterfully engineered intricate mechanics such as projectile firing, entity collisions, and diverse enemy types, merging them seamlessly with a range of in-game consumable items to create an enchanting and immersive Dragon Ball universe.</p>
+            <p>To enhance the nostalgic allure of the game and resonate with fans of the era, I ventured into graphic design. Using Photoshop, I carefully adapted imported graphics to echo the pixel-art style emblematic of classic 16-bit games. This approach not only infused a retro essence but also showcased my dedication in blending programming expertise with design ingenuity for a holistic Dragon Ball gaming experience.</p>
+        </li>
+    </ul>
+    <br>
+    <h2>Networks</h2>
+    <br>
+    <ul>
+        <li class = "project-description">
+            <h3>Iot Inspector</h3>
+            <h4>Languages: Python</h4>
+            <h4>Skills/Frameworks/Libraries: ZeroConf, Network Device Detection, MDNS &amp; UPNP Data Collection</h4>
+            <p>In my research, I aimed to address a significant flaw in the IoT Inspector, an open-source application designed to identify Internet of Things (IoT) devices on local networks. This application, which is vital for cybersecurity, was failing to properly recognize MDNS, SSDP, and UPNP devices, which constitute a major portion of IoT devices. On analyzing the source code, I identified that the root of the issue lay in the ‘netdisco’ library, which was deprecated. My approach to solving this problem combined in-depth software analysis with practical experimentation. Using a Raspberry Pi and a local router, I thoroughly tested the current identification processes and realized that the library was overly complicated and limited in its device detection, focusing only on specific IoT devices for which it had templates.
+            </p>
+            <p>To address these limitations, I devised two distinct solutions for SSDP/UPNP and MDNS devices. For SSDP/UPNP, I leveraged patterns within the information strings produced by the ssdp.scan() function, identifying a common substring that appeared in all UPNP devices. By creating a child class that inherited functionality from SSDPDiscoverable, I was able to redefine the device identification process and improve detection. For MDNS, I circumvented the complexities of the 'netdisco' library by integrating the ZeroConf library directly into the IoT Inspector application, which enabled efficient identification of MDNS devices. This hands-on approach not only utilized my software development and debugging skills but also underscored the importance of adaptability and innovative thinking in resolving complex technical challenges.</p>
+        </li>
+    </ul>
+    <br>
+    <br>
+  </div>
+  </body>
+</html>
